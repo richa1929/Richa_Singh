@@ -1,0 +1,244 @@
+html body {
+  margin: 0;
+}
+.heading {
+  font-size: 18px;
+}
+/* Style the navigation bar */
+.navbar {
+  background-color: #2a2a2a;
+}
+nav {
+  float: right;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.logo {
+  float: left;
+  width: 300px;
+  margin-top: 14px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 13px;
+  color: #d4d4d4;
+}
+ul li:active {
+  background-color: #107698;
+}
+
+ul li:hover {
+  color: white;
+}
+.nav-div {
+  background-color: #2a2a2a;
+  height: 84px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 50%);
+}
+
+.header-div {
+  margin: 0% 10% 0%;
+}
+
+.active-li {
+  background-color: #107698;
+  border: 1px solid #107698;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.our-services-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.our-services-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.our-services-text-h1 {
+  font-size: 50px;
+}
+.section-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 120px;
+  width: 100%;
+}
+
+.content-title {
+  font-size: 34px;
+  color: #0a465b;
+  font-weight: 50;
+}
+.service-highlight {
+  color: #ffa500;
+}
+.service-content {
+  color: #7f969e;
+  font-size: 18px;
+  text-align: center;
+  padding: 1% 25% 4% 25%;
+}
+.service-variety-container {
+  background-color: #edeff3;
+  min-height: 880px;
+  overflow: hidden;
+}
+.variety-title {
+  padding-top: 50px;
+}
+.variety-row {
+  display: flex;
+  padding: 1% 20% 4% 20%;
+}
+
+.variety-column {
+  flex: 25%;
+}
+.card {
+  height: 400px;
+  padding: 5px;
+}
+.card-top {
+  background-color: #107698;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  padding: 30px;
+  border-bottom: 5px solid #d1d1d0;
+}
+.card-content {
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  color: #7f969e;
+  height: 100%;
+  text-align: left;
+}
+
+.flexibility-column {
+  flex: 33.33%;
+}
+.flexibility-card {
+  width: 98%;
+}
+.flexibility-card-title {
+  background-color: white !important;
+  border-bottom: 3px solid #ffa500;
+  color: #0a465b !important;
+}
+.flexibility-card-content {
+  width: 90%;
+  padding: 30px;
+  background-color: white;
+  color: #7f969e;
+  /* height: 170px !important */
+}
+.flexibility-row {
+  padding: 1% 20% 0% 20% !important;
+}
+.specializations-column {
+  flex: 33.33%;
+}
+.touch-image {
+  border: 8px solid #fdb530;
+  border-radius: 50%;
+}
+.happy-text {
+  color: black;
+  font-size: 18px;
+}
+.happy-text-div {
+  margin-top: 10%;
+  width: 100%;
+  position: relative;
+  border-top: 1px solid #107698;
+  border-bottom: 1px solid #107698;
+  padding: 10px 0;
+}
+.touch-column {
+  flex: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.touch-column0 {
+  flex: 35%;
+}
+.touch-column1 {
+  flex: 5%;
+}
+.touch-arrow {
+  margin-left: 50px;
+}
+.contact-us-button {
+  background-color: #107698;
+  border: 2px solid #fdb530;
+  width: 200px;
+  padding: 15px 0px 15px 0px;
+  border-radius: 4px;
+  color: white;
+  font-size: 22px;
+}
+.social-border {
+  width: 70%;
+  /* max-width: 200%; */
+  /* min-width: 350px; */
+  text-align: center;
+  border-top: 4px solid #dfdfe0;
+  margin-top: 25px;
+  margin-left: 11%;
+  padding-top: 0px;
+  margin-bottom: 21px;
+}
+.social-image {
+  width: 70px;
+  border: 5px solid #dfdfe0;
+  border-radius: 50%;
+  margin: 0 12px;
+}
+.social-image-div {
+  margin-left: 18%;
+}
+.trusted-by-img {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #504f4f;
+  color: #c7c5c5;
+  /* z-index: 99; */
+  /* position: relative; */
+  text-align: center;
+  font-size: 16px;
+}
+.copyright-text {
+  padding: 10px;
+}
+.trusted-by-container {
+  min-height: 100px !important;
+  margin-top: 2%;
+}
+.contact-button-div {
+  margin-left: 26%;
+}
+@media screen and (max-width: 1600px) {
+  .card-top {
+    height: 100px;
+  }
+}
+@media screen and (min-width: 1601px) {
+  .social-border {
+    width: 58%;
+  }
+}
